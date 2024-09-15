@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: #8FBCB3;
+}
+
+
+.divQuery {
+    padding: 10px;
+    width: fit-content;
+    background-color: white;
+    height: fit-content;
+}
+
+
+@media (max-width: 1280px){
+    body{
+        background-color: #FCE6A8 ;
+        align-items: center;
+    }
+    
+    .divQuery{
+        background-color: #AA6DC4 ;
+        color: #8FBCB3;
+    }
+}
+
+@media(max-width: 640px){
+    body{
+        background-color:#CFB28C
+        ;
+    }
+
+    .divQuery{
+        display: none;
+    }
+}
+
+/* amarelo #FCE6A8 */
+/* verde #8FBCB3 */
+/* cinza-claro #DFE6ED */
+/* cinza-medio #C3CFD9 */
+/* cinza-escuro #788895 */
+/* roxo #AA6DC4 */
+/* azul #96C3EB */
