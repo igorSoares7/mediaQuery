@@ -12,10 +12,15 @@ body{
     width: fit-content;
     background-color: white;
     height: fit-content;
+    margin-top: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
-@media (max-width: 1280px){
+@media (max-width: 700px){
     body{
         background-color: #FCE6A8 ;
         align-items: center;
@@ -27,7 +32,7 @@ body{
     }
 }
 
-@media(max-width: 640px){
+@media(max-width: 400px){
     body{
         background-color:#CFB28C
         ;
